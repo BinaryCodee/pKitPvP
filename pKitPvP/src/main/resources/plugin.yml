@@ -1,0 +1,57 @@
+name: pKitPvP
+version: '${project.version}'
+main: dev.binarycodee.KitPvP
+authors: [ BinaryCodee ]
+description: KitPvP plugin for Spigot/Paper servers
+softdepend: [ PlaceholderAPI ]
+depend: [Vault]
+commands:
+  host:
+    description: Host Command
+    aliases:
+      - event
+      - events
+      - hosts
+  kitpvp:
+    description: Main command for everything
+    aliases: [ kp, pkitpvp, pkitp, pkpvp ]
+  spawn:
+    description: Teleport player to spawn
+  dropsettings:
+    description: Command to manage the pickup settings
+    aliases: [ drops, drop-settings ]
+  shop:
+    description: Shop Command
+    aliases:
+      - buy
+      - sell
+  stats:
+    description: Statistic Command
+    aliases:
+      - info
+      - infos
+      - information
+      - informations
+      - statistic
+      - statistics
+  fix:
+    description: Fixes inventory
+    aliases: [ fixall ]
+  giveexp:
+    description: Transfer a speciefied amount of levels to another player
+    aliases: [ givelevels, expgive, paylevels, payexp ]
+  discord:
+    description: Discord command
+    aliases: [ ds ]
+  build:
+    description: Build command
+  assegno:
+    description: assegno command
+    aliases: [ assegni ]
+  potion:
+    description: Pot command
+    aliases: [ pot ]
+  invsee:
+    description: Invsee command
+  store:
+    description: Store command
